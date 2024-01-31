@@ -3,17 +3,17 @@ using namespace std ;
 
 int main(){
     int n ;
-    cin>>n;
+    cin>>n; // height of triangle
     
     int row = 1;
     while(row <= n){
-        // space print krte hai
+        // to print spaces
         int space = n - row ;
         while(space){
             cout<<" ";
             space--;
         }
-        // star printing 
+        // to print stars
         int col = 1 ;
         while(col <= row){
             cout<<"*";
